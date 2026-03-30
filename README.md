@@ -17,3 +17,11 @@ This project was a collaborative exploration by two students for a "Computationa
 - **Genre & Sentiment:** Romance reviews tend to have more positive sentiment, while Mystery/Thriller reviews skew more negative. However, the correlation between sentiment and star rating is surprisingly weak, suggesting ratings don't capture the full emotional tone of a review.
 - **Genre Overlap:** Most books are tagged with multiple genres. Our network analysis showed that "Politics" and "Children’s" genres often act as "bridges" (high betweenness centrality) connecting different parts of the literary world.
 - **Author Communities:** We were able to build a recommendation system based on author communities, identifying authors who write in similar genre clusters (e.g., Stephen King's extensive multi-genre bibliography).
+
+## Datasets & Final Report
+
+Due to file size restrictions on GitHub's web uploader (>25MB), the primary datasets used in this analysis are hosted on Google Drive.
+
+* **[Download Raw Metadata & Comments (45MB)](https://drive.google.com/file/d/19ioD5u37lvmnbggQQDZvMeU9kh8wtbS5/view?usp=sharing)**: The initial scraped data including titles, ISBNs, and 16,000+ user comments.
+* **[Download Cleaned Book Data (42.7MB)](https://drive.google.com/file/d/1E62IK066i-4imX7mqIZUjh73cXZIgXdX/view?usp=sharing)**: The filtered dataset used for VADER sentiment scoring and network modeling.
+* **[Final Research Report (PDF)](https://drive.google.com/file/d/1KPhJhRNQXZiqeBQa5jw_U72Oi2T2bn34/view?usp=sharing)**: Our complete analysis, methodology, and visualization results.
